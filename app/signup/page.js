@@ -64,7 +64,7 @@ export default function Home() {
                     className="rounded-md border pl-2 text-[11px] mb-3 w-full h-[36px]"
                     type="text"
                     placeholder="enter your first name"
-                    required
+                    required={true}
                   />
                 </p>
                 <small className="text-[11px]">Last name *</small>
@@ -76,7 +76,7 @@ export default function Home() {
                     className="rounded-md border pl-2 text-[11px] mb-3 w-full h-[36px]"
                     type="text"
                     placeholder="enter your last name"
-                    required
+                    required={true}
                   />
                 </p>
                 <small className="text-[11px]">Email *</small>
@@ -88,7 +88,7 @@ export default function Home() {
                     className="rounded-md border pl-2 text-[11px] w-full h-[36px]"
                     type="email"
                     placeholder="enter your email"
-                    required
+                    required={true}
                   />
                 </p>
                 <small className="text-[11px]">Password</small>
@@ -100,7 +100,7 @@ export default function Home() {
                     className=" rounded-md border pl-2 text-[11px] w-[250px] h-[36px]"
                     type="password"
                     placeholder="Create a password"
-                    requi
+                    required={true}
                   />
                 </p>
                 <div className="mt-3">
