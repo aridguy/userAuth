@@ -5,10 +5,13 @@ import { FaRegChartBar } from "react-icons/fa6";
 import { PiStudentLight } from "react-icons/pi";
 import { IoWalletOutline } from "react-icons/io5";
 import { HiOutlineSupport } from "react-icons/hi";
-1234444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444;
+import { IoMdTime } from "react-icons/io";
 import { IoSettingsOutline } from "react-icons/io5";
 import { LuLogOut } from "react-icons/lu";
-import Image from "next/image";
+import { LuBarChart } from "react-icons/lu";
+import { LuUsers } from "react-icons/lu";
+import { IoDocumentTextOutline } from "react-icons/io5";
+// import Image from "next/image";
 
 const page = () => {
   return (
@@ -70,8 +73,90 @@ const page = () => {
             <hr />
           </div>
           <div className="md:flex w-full h-screen mt-4">
-            <div className="w-8/12 mr-2 bg-black">bbb</div>
-            <div className="w-4/12 mr-2 bg-gray-400">bbb</div>
+            <div className="w-8/12 mr-2">
+              <div
+                className="bg-cover bg-center mb-3"
+                style={{
+                  backgroundImage: 'url("/Image.png")',
+                  width: "100%",
+                  height: "40%",
+                }}
+              ></div>
+              <div className="contents mt-4">
+                <h3 className="font-bold">Course Overview</h3>
+                <p className="text-sm font-light leading-snug tracking-wide text-[9px]">
+                  About the Course
+                </p>
+                <p className="mt-6 break-words text-[11px] font-normal leading-relaxed text-gray-700 dark:text-gray-400">
+                  Dolor enim eu tortor urna sed duis nulla. Aliquam vestibulum,
+                  nulla odio nisl vitae. In aliquet pellentesque aenean hac
+                  vestibulum turpis mi bibendum diam. Tempor integer aliquam in
+                  itae malesuada fringilla. Elit nisi in eleifend sed nisi.
+                  Pulvinar at orci, proin imperdiet commodo consectetur
+                  convallis risus. Ipsum sit mattis nulla quam nulla. Gravida id
+                  gravida ac enim mauris id.Diam elit, orci, tincidunt aenean
+                  tempus. Quis velit eget ut tortor tellus. Sed vel, congue
+                  felis elit erat nam nibh orci. Non pellentesque congue eget
+                  consectetur turpis. Sapien, dictum molestie sem tempor. Diam
+                  elit, orci, tincidunt aenean tempus. Quis velit eget ut tortor
+                  tellus. Sed vel, congue felis elit erat nam nibh orci.
+                </p>
+                <div className="mt-5">
+                  <h6>Duration</h6>
+                  <small>3 Weeks</small>
+                </div>
+              </div>
+            </div>
+            <div className="w-4/12 mr-2">
+              <div className="shadow-lg w-full bg-[#FFFFFF] h-[260px] rounded-t-2xl pt-2">
+                <h1 className="text-center text-[25px]">N35,000.00</h1>
+                <hr />
+                <div className="md:flex mt-2 pl-3 text-[19px]">
+                  <div className="w-2/12">
+                    <IoMdTime className="text-black mt-2" />
+                  </div>
+                  <div className="w-7/12">
+                    <small>Course Duration</small>
+                  </div>
+                  <div className="w-3/12">
+                    <small>4 Weeks</small>
+                  </div>
+                </div>
+                <div className="md:flex mt-2 pl-3 text-[19px]">
+                  <div className="w-2/12">
+                    <LuBarChart className="text-black mt-2" />
+                  </div>
+                  <div className="w-7/12">
+                    <small>Course Level</small>
+                  </div>
+                  <div className="w-3/12">
+                    <small>Beginner</small>
+                  </div>
+                </div>
+                <div className="md:flex mt-2 pl-3 text-[19px]">
+                  <div className="w-2/12">
+                    <LuUsers className="text-black mt-2" />
+                  </div>
+                  <div className="w-7/12">
+                    <small>Students Enrolled</small>
+                  </div>
+                  <div className="w-3/12">
+                    <small>75</small>
+                  </div>
+                </div>
+                <div className="md:flex mt-2 pl-3 text-[19px]">
+                  <div className="w-2/12">
+                    <IoDocumentTextOutline className="text-black mt-2" />
+                  </div>
+                  <div className="w-7/12">
+                    <small>Subtittle Language</small>
+                  </div>
+                  <div className="w-3/12">
+                    <small>English</small>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
