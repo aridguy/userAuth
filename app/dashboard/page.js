@@ -79,7 +79,7 @@ const page = () => {
                 style={{
                   backgroundImage: 'url("/Image.png")',
                   width: "100%",
-                  height: "40%",
+                  height: "45%",
                 }}
               ></div>
               <div className="contents mt-4">
@@ -108,7 +108,8 @@ const page = () => {
               </div>
             </div>
             <div className="w-4/12 mr-2">
-              <div className="shadow-lg w-full bg-[#FFFFFF] h-[260px] rounded-t-2xl pt-2">
+
+              <div className="shadow-lg w-full bg-[#FFFFFF] h-[285px] rounded-t-2xl pt-2">
                 <h1 className="text-center text-[25px]">N35,000.00</h1>
                 <hr />
                 <div className="md:flex mt-2 pl-3 text-[19px]">
@@ -154,6 +155,66 @@ const page = () => {
                   <div className="w-3/12">
                     <small>English</small>
                   </div>
+                </div>
+                <hr className="mt-3" />
+                <div className="pl-8">
+                  <button class="bg-[#27779B] mt-4 w-[90%] text-center text-white hover:bg-blue-400 font-bold px-4 rounded items-center h-[40px]">
+                    <span>Edit Price</span>
+                  </button>
+                </div>
+              </div>
+              <div className="w-full bg-[#FFFFFF] h-[285px] pt-2 mt-5">
+                <h1 className="text-center text-[25px]">N35,000.00</h1>
+                <hr />
+                <div className="md:flex mt-2 pl-3 text-[19px]">
+                  <div className="w-2/12">
+                    <IoMdTime className="text-black mt-2" />
+                  </div>
+                  <div className="w-7/12">
+                    <small>Course Duration</small>
+                  </div>
+                  <div className="w-3/12">
+                    <small>4 Weeks</small>
+                  </div>
+                </div>
+                <div className="md:flex mt-2 pl-3 text-[19px]">
+                  <div className="w-2/12">
+                    <LuBarChart className="text-black mt-2" />
+                  </div>
+                  <div className="w-7/12">
+                    <small>Course Level</small>
+                  </div>
+                  <div className="w-3/12">
+                    <small>Beginner</small>
+                  </div>
+                </div>
+                <div className="md:flex mt-2 pl-3 text-[19px]">
+                  <div className="w-2/12">
+                    <LuUsers className="text-black mt-2" />
+                  </div>
+                  <div className="w-7/12">
+                    <small>Students Enrolled</small>
+                  </div>
+                  <div className="w-3/12">
+                    <small>75</small>
+                  </div>
+                </div>
+                <div className="md:flex mt-2 pl-3 text-[19px]">
+                  <div className="w-2/12">
+                    <IoDocumentTextOutline className="text-black mt-2" />
+                  </div>
+                  <div className="w-7/12">
+                    <small>Subtittle Language</small>
+                  </div>
+                  <div className="w-3/12">
+                    <small>English</small>
+                  </div>
+                </div>
+                <hr className="mt-3" />
+                <div className="pl-8">
+                  <button class="bg-[#27779B] mt-4 w-[90%] text-center text-white hover:bg-blue-400 font-bold px-4 rounded items-center h-[40px]">
+                    <span>Edit Price</span>
+                  </button>
                 </div>
               </div>
             </div>
